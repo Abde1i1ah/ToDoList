@@ -90,4 +90,4 @@ jobs:
 
         push: true
 
-        tags: ${{ secrets.DOCKER_USERNAME }}/todolist
+        tags: ${{ secrets.DOCKER_USERNAME }}/todolist:latest
